@@ -1,4 +1,6 @@
-import Header from './components/Header';
+import Hero from './components/Hero';
+import Features from './components/Features';
+import HowItWorks from './components/HowItWorks';
 import "./styles/styles.css";
 import { useState, useEffect } from 'react';
 
@@ -17,7 +19,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header appWidth={width}/>
+      <Hero appWidth={width} />
+      <Features />
+      <HowItWorks />
     </div>
   );
 }

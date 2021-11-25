@@ -1,16 +1,15 @@
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import DesktopMenu from './DesktopMenu';
+import HamburgerMenu from './HamburgerMenu';
+
 const Header = (props) => {
     return (
-        
-        <div className='header'>
-            <div className='header-logo'>No-Code Portfolio</div>
+        <div className='header__container'>
+            <div className='header__logo'>No-Code Portfolio</div>
             <nav>
                 {props.appWidth >= 1070 ? 
-                <ul>
-                    <li>Get Started</li>
-                    <li>How It Works</li>
-                    <li>Contact</li>
-                </ul>
-                : null}
+                <DesktopMenu /> :
+                <HamburgerMenu />}
             </nav>
         </div>
     )
