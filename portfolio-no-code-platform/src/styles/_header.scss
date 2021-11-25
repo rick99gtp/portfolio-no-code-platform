@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $white;
+
+    .header-logo {
+
+    }
+
+    nav {
+        width: 25%;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+
+            li {
+
+            }
+        }
+    }
+}
