@@ -8,9 +8,9 @@ const HowItWorks = () => {
                 Sed luctus justo venenatis tortor gravida, vitae fringilla lorem luctus.
                 Ut laoreet.
             </p>
-            <Card icon="" title="" description="" orientation="col" />
-            <Card icon="" title="" description="" orientation="col" />
-            <Card icon="" title="" description="" orientation="col" />
+            <Card icon="" title="Answer a few questions" description="" orientation="col" />
+            <Card icon="" title="Choose a template" description="" orientation="col" />
+            <Card icon="" title="Download the files" description="" orientation="col" />
         </div>
     )
 }

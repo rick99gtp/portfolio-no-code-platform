@@ -1,6 +1,8 @@
 import Hero from './components/Hero';
 import Features from './components/Features';
 import HowItWorks from './components/HowItWorks';
+import HeroInfo from './components/HeroInfo';
+import Footer from './components/Footer';
 import "./styles/styles.css";
 import { useState, useEffect } from 'react';
 
@@ -22,6 +24,8 @@ const App = () => {
       <Hero appWidth={width} />
       <Features />
       <HowItWorks />
+      <HeroInfo />
+      <Footer />
     </div>
   );
 }
