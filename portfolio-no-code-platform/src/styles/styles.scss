@@ -1,7 +1,9 @@
 @import "reset";
-@import "variables";
+@import "colors";
 @import "header";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 body {
-    margin: 0 10rem;
+    padding: 1rem;
+    font-family: "Lato", sans-serif;
 }
