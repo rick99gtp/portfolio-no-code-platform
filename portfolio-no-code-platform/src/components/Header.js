@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import logo from '../assets/no-code-portfolio-logo.png';
 import DesktopMenu from './DesktopMenu';
-import HamburgerMenu from './HamburgerMenu';
 
 const Header = (props) => {
     return (
