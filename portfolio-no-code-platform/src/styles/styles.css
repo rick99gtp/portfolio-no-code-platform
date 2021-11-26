@@ -38,6 +38,7 @@
 .header__container nav ul li a {
   text-decoration: none;
   color: #fbe0ce;
+  font-size: 1.15rem;
 }
 
 .header__container .hamburger-menu .hamburger-line {
