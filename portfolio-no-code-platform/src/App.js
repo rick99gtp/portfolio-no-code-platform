@@ -20,7 +20,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="App">
+    <div className="app">
       <Hero appWidth={width} />
       <Features />
       <HowItWorks />

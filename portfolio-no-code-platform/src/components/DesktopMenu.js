@@ -1,10 +1,12 @@
 const DesktopMenu = () => {
     return (
-        <ul className='desktop-menu'>
-            <li>Get Started</li>
-            <li>How It Works</li>
-            <li>Contact</li>
-        </ul>
+        <div>
+            <ul>
+                <li><a href="#getstarted">Get Started</a></li>
+                <li><a href="#howitworks">How It Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     )
 }
 

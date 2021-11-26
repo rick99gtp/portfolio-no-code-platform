@@ -1,23 +1,48 @@
-.header {
+.header__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     color: $black;
-
-    .header-logo {
-
-    }
+    background: radial-gradient(#686868, #161616);
+    padding: 0.625rem 6rem;
 
     nav {
         width: 25%;
+
         ul {
             display: flex;
             justify-content: space-between;
             list-style: none;
 
             li {
-
+                a {
+                    text-decoration: none;
+                    color: $yellowish;
+                }
             }
+        }
+    }
+
+    .hamburger-menu {
+
+        .hamburger-line {
+            height: 4px;
+            width: 35px;
+            background-color: $black;
+
+            &:nth-child(2) {
+                margin: 8px 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .header__container {
+        justify-content: space-between;
+
+        img {
+            width: 9rem;
         }
     }
 }
